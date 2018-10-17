@@ -37,14 +37,14 @@
         padding-bottom:37.09%
         .item-img
             width:100%
-        .item-info
-            padding:.1rem
-            .item-title
-                line-height:0.54rem
-                font-size:0.32rem
-                ellipsis()
-            .item-desc
-                line-height:.4rem
-                color:#ccc
-                ellipsis()
+    .item-info
+        padding:.1rem
+        .item-title
+            line-height:0.54rem
+            font-size:0.32rem
+            ellipsis()
+        .item-desc
+            line-height:.4rem
+            color:#ccc
+            ellipsis()
 </style>

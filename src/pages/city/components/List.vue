@@ -21,7 +21,7 @@
                 <div class="title border-topbottom">{{key}}</div>
                 <div class="item-list">
                     <div class="item border-bottom" v-for="innerItem of item" :key="innerItem.id" @click="handleCityClick(innerItem.name)">
-                        {{$innerItem.name}}
+                        {{innerItem.name}}
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
             }
         },
         mounted(){
-            this.scroll = new Bscroll(this.$ref.wrapper)
+            this.scroll = new Bscroll(this.$refs.wrapper)
         }
     }
 </script>
@@ -78,6 +78,7 @@
     .list
         overflow: hidden
         position: absolute
+        margin-top:.2rem
         top: 1.58rem
         left: 0
         right: 0
@@ -92,8 +93,8 @@
             overflow: hidden
             padding: .1rem .6rem .1rem .1rem
            .button-wrapper
-               float: left
-               width: 33.33%
+                float: left
+                width: 33.33%
                 .button
                     margin: .1rem
                     padding: .1rem 0
@@ -102,6 +103,6 @@
                     border-radius: .06rem
         .item-list
             .item
-            line-height: .76rem
-            padding-left: .2rem
+                line-height: .76rem
+                padding-left: .2rem
 </style>

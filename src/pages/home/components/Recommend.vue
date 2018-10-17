@@ -33,7 +33,7 @@
     .item
         overflow:hidden
         display:flex
-        hieght:1.9rem
+        height:1.9rem
         .item-img
             width:1.7rem
             height:1.7rem
@@ -42,19 +42,19 @@
             flex:1
             padding:.1rem
             min-width:0
-        .item-title
-            line-height:.54rem
-            font-size:.32rem
-            ellipsis()
-        .item-desc
-            line-height:.4rem
-            color:#ccc
-            ellipsis()
-        .item-button
-            line-height:.44rem
-            margin-top:.16rem
-            background:#ff9300
-            padding:0.2rem
-            border-radius:.06rem
-            color:#fff
+            .item-title
+                line-height:.54rem
+                font-size:.32rem
+                ellipsis()
+            .item-desc
+                line-height:.4rem
+                color:#ccc
+                ellipsis()
+            .item-button
+                line-height:.44rem
+                margin-top:.16rem
+                background:#ff9300
+                padding:0.2rem
+                border-radius:.06rem
+                color:#fff
 </style>
